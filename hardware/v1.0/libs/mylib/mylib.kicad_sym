@@ -59,8 +59,8 @@
 		)
 		(symbol "QMTECH_XC7A***T_1_1"
 			(rectangle
-				(start -11.385 41.9661)
-				(end 11.475 -41.91)
+				(start -11.43 41.91)
+				(end 11.43 -41.91)
 				(stroke
 					(width 0)
 					(type default)
@@ -70,7 +70,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 39.4261 0)
+				(at -15.24 39.37 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -88,7 +88,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 29.2661 180)
+				(at 15.24 29.21 180)
 				(length 3.81)
 				(name "B15_E25"
 					(effects
@@ -106,7 +106,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 26.7261 0)
+				(at -15.24 26.67 0)
 				(length 3.81)
 				(name "B15_G26"
 					(effects
@@ -124,7 +124,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 26.7261 180)
+				(at 15.24 26.67 180)
 				(length 3.81)
 				(name "B15_H26"
 					(effects
@@ -142,7 +142,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 24.1861 0)
+				(at -15.24 24.13 0)
 				(length 3.81)
 				(name "B15_E23"
 					(effects
@@ -160,7 +160,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 24.1861 180)
+				(at 15.24 24.13 180)
 				(length 3.81)
 				(name "B15_F23"
 					(effects
@@ -178,7 +178,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 21.6461 0)
+				(at -15.24 21.59 0)
 				(length 3.81)
 				(name "B15_F22"
 					(effects
@@ -196,7 +196,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 21.6461 180)
+				(at 15.24 21.59 180)
 				(length 3.81)
 				(name "B15_G22"
 					(effects
@@ -214,7 +214,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 19.1061 0)
+				(at -15.24 19.05 0)
 				(length 3.81)
 				(name "B15_J26"
 					(effects
@@ -232,7 +232,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 19.1061 180)
+				(at 15.24 19.05 180)
 				(length 3.81)
 				(name "B15_J25"
 					(effects
@@ -250,7 +250,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 16.5661 0)
+				(at -15.24 16.51 0)
 				(length 3.81)
 				(name "B15_G21"
 					(effects
@@ -268,7 +268,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 39.4261 180)
+				(at 15.24 39.37 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -286,7 +286,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 16.5661 180)
+				(at 15.24 16.51 180)
 				(length 3.81)
 				(name "B15_G20"
 					(effects
@@ -304,7 +304,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 14.0261 0)
+				(at -15.24 13.97 0)
 				(length 3.81)
 				(name "B15_H22"
 					(effects
@@ -322,7 +322,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 14.0261 180)
+				(at 15.24 13.97 180)
 				(length 3.81)
 				(name "B15_H21"
 					(effects
@@ -340,7 +340,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 11.4861 0)
+				(at -15.24 11.43 0)
 				(length 3.81)
 				(name "B15_J21"
 					(effects
@@ -358,7 +358,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 11.4861 180)
+				(at 15.24 11.43 180)
 				(length 3.81)
 				(name "B15_K21"
 					(effects
@@ -376,7 +376,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 8.9461 0)
+				(at -15.24 8.89 0)
 				(length 3.81)
 				(name "B14_K26"
 					(effects
@@ -394,7 +394,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 8.9461 180)
+				(at 15.24 8.89 180)
 				(length 3.81)
 				(name "B14_K25"
 					(effects
@@ -430,7 +430,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 6.4061 180)
+				(at 15.24 6.35 180)
 				(length 3.81)
 				(name "B15_K22"
 					(effects
@@ -448,7 +448,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 3.8661 0)
+				(at -15.24 3.81 0)
 				(length 3.81)
 				(name "B14_M26"
 					(effects
@@ -466,7 +466,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 36.8861 0)
+				(at -15.24 36.83 0)
 				(length 3.81)
 				(name "3V3"
 					(effects
@@ -484,7 +484,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 3.8661 180)
+				(at 15.24 3.81 180)
 				(length 3.81)
 				(name "B14_N26"
 					(effects
@@ -502,7 +502,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 1.3261 0)
+				(at -15.24 1.27 0)
 				(length 3.81)
 				(name "B14_L23"
 					(effects
@@ -520,7 +520,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 1.3261 180)
+				(at 15.24 1.27 180)
 				(length 3.81)
 				(name "B14_L22"
 					(effects
@@ -538,7 +538,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -1.2139 0)
+				(at -15.24 -1.27 0)
 				(length 3.81)
 				(name "B14_P26"
 					(effects
@@ -556,7 +556,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -1.2139 180)
+				(at 15.24 -1.27 180)
 				(length 3.81)
 				(name "B14_R26"
 					(effects
@@ -574,7 +574,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -3.7539 0)
+				(at -15.24 -3.81 0)
 				(length 3.81)
 				(name "B14_M25"
 					(effects
@@ -592,7 +592,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -3.7539 180)
+				(at 15.24 -3.81 180)
 				(length 3.81)
 				(name "B14_M24"
 					(effects
@@ -610,7 +610,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -6.2939 0)
+				(at -15.24 -6.35 0)
 				(length 3.81)
 				(name "B14_N22"
 					(effects
@@ -628,7 +628,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -6.2939 180)
+				(at 15.24 -6.35 180)
 				(length 3.81)
 				(name "B14_N21"
 					(effects
@@ -646,7 +646,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -8.8339 0)
+				(at -15.24 -8.89 0)
 				(length 3.81)
 				(name "B14_P24"
 					(effects
@@ -664,7 +664,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 36.8861 180)
+				(at 15.24 36.83 180)
 				(length 3.81)
 				(name "3V3"
 					(effects
@@ -682,7 +682,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -8.8339 180)
+				(at 15.24 -8.89 180)
 				(length 3.81)
 				(name "B14_P23"
 					(effects
@@ -700,7 +700,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -11.3739 0)
+				(at -15.24 -11.43 0)
 				(length 3.81)
 				(name "B14_P25"
 					(effects
@@ -718,7 +718,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -11.3739 180)
+				(at 15.24 -11.43 180)
 				(length 3.81)
 				(name "B14_R25"
 					(effects
@@ -736,7 +736,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -13.9139 0)
+				(at -15.24 -13.97 0)
 				(length 3.81)
 				(name "B14_T25"
 					(effects
@@ -754,7 +754,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -13.9139 180)
+				(at 15.24 -13.97 180)
 				(length 3.81)
 				(name "B14_T24"
 					(effects
@@ -772,7 +772,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -16.4539 0)
+				(at -15.24 -16.51 0)
 				(length 3.81)
 				(name "B13_V21"
 					(effects
@@ -790,7 +790,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -16.4539 180)
+				(at 15.24 -16.51 180)
 				(length 3.81)
 				(name "B13_U21"
 					(effects
@@ -808,7 +808,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -18.9939 0)
+				(at -15.24 -19.05 0)
 				(length 3.81)
 				(name "B13_W23"
 					(effects
@@ -826,7 +826,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -18.9939 180)
+				(at 15.24 -19.05 180)
 				(length 3.81)
 				(name "B13_V23"
 					(effects
@@ -844,7 +844,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -21.5339 0)
+				(at -15.24 -21.59 0)
 				(length 3.81)
 				(name "B13_Y23"
 					(effects
@@ -862,7 +862,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 34.3461 0)
+				(at -15.24 34.29 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -880,7 +880,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -21.5339 180)
+				(at 15.24 -21.59 180)
 				(length 3.81)
 				(name "B13_Y22"
 					(effects
@@ -898,7 +898,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -24.0739 0)
+				(at -15.24 -24.13 0)
 				(length 3.81)
 				(name "B13_AA25"
 					(effects
@@ -916,7 +916,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -24.0739 180)
+				(at 15.24 -24.13 180)
 				(length 3.81)
 				(name "B13_Y25"
 					(effects
@@ -934,7 +934,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -26.6139 0)
+				(at -15.24 -26.67 0)
 				(length 3.81)
 				(name "B13_AC24"
 					(effects
@@ -952,7 +952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -26.6139 180)
+				(at 15.24 -26.67 180)
 				(length 3.81)
 				(name "B13_AB24"
 					(effects
@@ -970,7 +970,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -29.1539 0)
+				(at -15.24 -29.21 0)
 				(length 3.81)
 				(name "B13_Y21"
 					(effects
@@ -988,7 +988,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -29.1539 180)
+				(at 15.24 -29.21 180)
 				(length 3.81)
 				(name "B13_W21"
 					(effects
@@ -1006,7 +1006,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -31.6939 0)
+				(at -15.24 -31.75 0)
 				(length 3.81)
 				(name "B13_Y26"
 					(effects
@@ -1024,7 +1024,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -31.6939 180)
+				(at 15.24 -31.75 180)
 				(length 3.81)
 				(name "B13_W25"
 					(effects
@@ -1042,7 +1042,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -34.2339 0)
+				(at -15.24 -34.29 0)
 				(length 3.81)
 				(name "B13_AC26"
 					(effects
@@ -1060,7 +1060,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 34.3461 180)
+				(at 15.24 34.29 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1078,7 +1078,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -34.2339 180)
+				(at 15.24 -34.29 180)
 				(length 3.81)
 				(name "B13_AB26"
 					(effects
@@ -1096,7 +1096,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 -36.7739 0)
+				(at -15.24 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1114,7 +1114,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 -36.7739 180)
+				(at 15.24 -36.83 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1132,7 +1132,7 @@
 				)
 			)
 			(pin input line
-				(at -15.195 -39.3139 0)
+				(at -15.24 -39.37 0)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -1150,7 +1150,7 @@
 				)
 			)
 			(pin input line
-				(at 15.285 -39.3139 180)
+				(at 15.24 -39.37 180)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -1168,7 +1168,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 31.8061 0)
+				(at -15.24 31.75 0)
 				(length 3.81)
 				(name "B15_D26"
 					(effects
@@ -1186,7 +1186,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 31.8061 180)
+				(at 15.24 31.75 180)
 				(length 3.81)
 				(name "B15_E26"
 					(effects
@@ -1204,7 +1204,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 29.2661 0)
+				(at -15.24 29.21 0)
 				(length 3.81)
 				(name "B15_D25"
 					(effects
@@ -1224,8 +1224,8 @@
 		)
 		(symbol "QMTECH_XC7A***T_2_1"
 			(rectangle
-				(start -11.385 41.9661)
-				(end 11.475 -41.91)
+				(start -11.43 41.91)
+				(end 11.43 -41.91)
 				(stroke
 					(width 0)
 					(type default)
@@ -1235,7 +1235,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -3.7539 180)
+				(at 15.24 -3.81 180)
 				(length 3.81)
 				(name "IO_L2"
 					(effects
@@ -1253,7 +1253,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -6.2939 0)
+				(at -15.24 -6.35 0)
 				(length 3.81)
 				(name "IO_L5"
 					(effects
@@ -1271,7 +1271,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -6.2939 180)
+				(at 15.24 -6.35 180)
 				(length 3.81)
 				(name "IO_K5"
 					(effects
@@ -1289,7 +1289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -8.8339 0)
+				(at -15.24 -8.89 0)
 				(length 3.81)
 				(name "IO_M4"
 					(effects
@@ -1307,7 +1307,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -8.8339 180)
+				(at 15.24 -8.89 180)
 				(length 3.81)
 				(name "IO_L4"
 					(effects
@@ -1325,7 +1325,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -11.3739 0)
+				(at -15.24 -11.43 0)
 				(length 3.81)
 				(name "IO_N3"
 					(effects
@@ -1343,7 +1343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -11.3739 180)
+				(at 15.24 -11.43 180)
 				(length 3.81)
 				(name "IO_N2"
 					(effects
@@ -1361,7 +1361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -13.9139 0)
+				(at -15.24 -13.97 0)
 				(length 3.81)
 				(name "IO_M6"
 					(effects
@@ -1379,7 +1379,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -13.9139 180)
+				(at 15.24 -13.97 180)
 				(length 3.81)
 				(name "IO_M5_VREF"
 					(effects
@@ -1397,7 +1397,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -16.4539 0)
+				(at -15.24 -16.51 0)
 				(length 3.81)
 				(name "IO_K1"
 					(effects
@@ -1415,7 +1415,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -16.4539 180)
+				(at 15.24 -16.51 180)
 				(length 3.81)
 				(name "IO_J1"
 					(effects
@@ -1433,7 +1433,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -18.9939 0)
+				(at -15.24 -19.05 0)
 				(length 3.81)
 				(name "IO_R3"
 					(effects
@@ -1451,7 +1451,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -18.9939 180)
+				(at 15.24 -19.05 180)
 				(length 3.81)
 				(name "IO_P3"
 					(effects
@@ -1469,7 +1469,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -21.5339 0)
+				(at -15.24 -21.59 0)
 				(length 3.81)
 				(name "IO_T4"
 					(effects
@@ -1487,7 +1487,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -21.5339 180)
+				(at 15.24 -21.59 180)
 				(length 3.81)
 				(name "IO_T3"
 					(effects
@@ -1505,7 +1505,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -24.0739 0)
+				(at -15.24 -24.13 0)
 				(length 3.81)
 				(name "IO_P6"
 					(effects
@@ -1523,7 +1523,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -24.0739 180)
+				(at 15.24 -24.13 180)
 				(length 3.81)
 				(name "IO_P5_VREF"
 					(effects
@@ -1541,7 +1541,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -26.6139 0)
+				(at -15.24 -26.67 0)
 				(length 3.81)
 				(name "IO_N3"
 					(effects
@@ -1559,7 +1559,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -26.6139 180)
+				(at 15.24 -26.67 180)
 				(length 3.81)
 				(name "IO_M1"
 					(effects
@@ -1577,7 +1577,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -29.1539 0)
+				(at -15.24 -29.21 0)
 				(length 3.81)
 				(name "IO_N1"
 					(effects
@@ -1595,7 +1595,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -29.1539 180)
+				(at 15.24 -29.21 180)
 				(length 3.81)
 				(name "IO_P1"
 					(effects
@@ -1613,7 +1613,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -31.6939 0)
+				(at -15.24 -31.75 0)
 				(length 3.81)
 				(name "IO_T2"
 					(effects
@@ -1631,7 +1631,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -31.6939 180)
+				(at 15.24 -31.75 180)
 				(length 3.81)
 				(name "IO_R2"
 					(effects
@@ -1649,7 +1649,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -34.2339 0)
+				(at -15.24 -34.29 0)
 				(length 3.81)
 				(name "IO_U2"
 					(effects
@@ -1667,7 +1667,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -34.2339 180)
+				(at 15.24 -34.29 180)
 				(length 3.81)
 				(name "IO_U1"
 					(effects
@@ -1685,7 +1685,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 -36.7739 0)
+				(at -15.24 -36.83 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1703,7 +1703,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 -36.7739 180)
+				(at 15.24 -36.83 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1721,7 +1721,7 @@
 				)
 			)
 			(pin input line
-				(at -15.195 -39.3139 0)
+				(at -15.24 -39.37 0)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -1739,7 +1739,7 @@
 				)
 			)
 			(pin input line
-				(at 15.285 -39.3139 180)
+				(at 15.24 -39.37 180)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -1757,7 +1757,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 39.4261 0)
+				(at -15.24 39.37 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1775,7 +1775,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 39.4261 180)
+				(at 15.24 39.37 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1793,7 +1793,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 36.8861 0)
+				(at -15.24 36.83 0)
 				(length 3.81)
 				(name "3V3"
 					(effects
@@ -1811,7 +1811,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 36.8861 180)
+				(at 15.24 36.83 180)
 				(length 3.81)
 				(name "3V3"
 					(effects
@@ -1829,7 +1829,7 @@
 				)
 			)
 			(pin output line
-				(at -15.195 34.3461 0)
+				(at -15.24 34.29 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1847,7 +1847,7 @@
 				)
 			)
 			(pin output line
-				(at 15.285 34.3461 180)
+				(at 15.24 34.29 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -1865,7 +1865,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 31.8061 0)
+				(at -15.24 31.75 0)
 				(length 3.81)
 				(name "IO_B5"
 					(effects
@@ -1883,7 +1883,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 31.8061 180)
+				(at 15.24 31.75 180)
 				(length 3.81)
 				(name "IO_A5"
 					(effects
@@ -1901,7 +1901,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 29.2661 0)
+				(at -15.24 29.21 0)
 				(length 3.81)
 				(name "IO_B4"
 					(effects
@@ -1919,7 +1919,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 29.2661 180)
+				(at 15.24 29.21 180)
 				(length 3.81)
 				(name "IO_A4"
 					(effects
@@ -1937,7 +1937,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 26.7261 0)
+				(at -15.24 26.67 0)
 				(length 3.81)
 				(name "IO_A3"
 					(effects
@@ -1955,7 +1955,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 26.7261 180)
+				(at 15.24 26.67 180)
 				(length 3.81)
 				(name "IO_A2"
 					(effects
@@ -1973,7 +1973,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 24.1861 0)
+				(at -15.24 24.13 0)
 				(length 3.81)
 				(name "IO_D4"
 					(effects
@@ -1991,7 +1991,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 24.1861 180)
+				(at 15.24 24.13 180)
 				(length 3.81)
 				(name "IO_C4"
 					(effects
@@ -2009,7 +2009,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 21.6461 0)
+				(at -15.24 21.59 0)
 				(length 3.81)
 				(name "IO_C2"
 					(effects
@@ -2027,7 +2027,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 21.6461 180)
+				(at 15.24 21.59 180)
 				(length 3.81)
 				(name "IO_B2_VREF"
 					(effects
@@ -2045,7 +2045,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 19.1061 0)
+				(at -15.24 19.05 0)
 				(length 3.81)
 				(name "IO_E5"
 					(effects
@@ -2063,7 +2063,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 19.1061 180)
+				(at 15.24 19.05 180)
 				(length 3.81)
 				(name "IO_D5"
 					(effects
@@ -2081,7 +2081,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 16.5661 0)
+				(at -15.24 16.51 0)
 				(length 3.81)
 				(name "IO_C1"
 					(effects
@@ -2099,7 +2099,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 16.5661 180)
+				(at 15.24 16.51 180)
 				(length 3.81)
 				(name "IO_B1"
 					(effects
@@ -2117,7 +2117,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 14.0261 0)
+				(at -15.24 13.97 0)
 				(length 3.81)
 				(name "IO_E1"
 					(effects
@@ -2135,7 +2135,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 14.0261 180)
+				(at 15.24 13.97 180)
 				(length 3.81)
 				(name "IO_D1"
 					(effects
@@ -2153,7 +2153,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 11.4861 0)
+				(at -15.24 11.43 0)
 				(length 3.81)
 				(name "IO_F2"
 					(effects
@@ -2171,7 +2171,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 11.4861 180)
+				(at 15.24 11.43 180)
 				(length 3.81)
 				(name "IO_E2"
 					(effects
@@ -2189,7 +2189,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 8.9461 0)
+				(at -15.24 8.89 0)
 				(length 3.81)
 				(name "IO_G4"
 					(effects
@@ -2207,7 +2207,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 8.9461 180)
+				(at 15.24 8.89 180)
 				(length 3.81)
 				(name "IO_F4"
 					(effects
@@ -2243,7 +2243,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 6.4061 180)
+				(at 15.24 6.35 180)
 				(length 3.81)
 				(name "IO_G1"
 					(effects
@@ -2261,7 +2261,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 3.8661 0)
+				(at -15.24 3.81 0)
 				(length 3.81)
 				(name "IO_J4"
 					(effects
@@ -2279,7 +2279,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 3.8661 180)
+				(at 15.24 3.81 180)
 				(length 3.81)
 				(name "IO_H4"
 					(effects
@@ -2297,7 +2297,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 1.3261 0)
+				(at -15.24 1.27 0)
 				(length 3.81)
 				(name "IO_H2"
 					(effects
@@ -2315,7 +2315,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 1.3261 180)
+				(at 15.24 1.27 180)
 				(length 3.81)
 				(name "IO_H1"
 					(effects
@@ -2333,7 +2333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -1.2139 0)
+				(at -15.24 -1.27 0)
 				(length 3.81)
 				(name "IO_H9"
 					(effects
@@ -2351,7 +2351,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.285 -1.2139 180)
+				(at 15.24 -1.27 180)
 				(length 3.81)
 				(name "IO_G9_VREF"
 					(effects
@@ -2369,7 +2369,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.195 -3.7539 0)
+				(at -15.24 -3.81 0)
 				(length 3.81)
 				(name "IO_M2"
 					(effects
@@ -2379,6 +2379,153 @@
 					)
 				)
 				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TFOM24M4RHKCNT2T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at -2.286 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TFOM24M4RHKCNT2T"
+			(at 0 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010301_Yajingxin-TFOM24M4RHKCNT2T_C454612.pdf"
+			(at 0 10.414 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TFOM24M4RHKCNT2T_1_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0) (xy -0.508 1.27) (xy 0.254 1.27) (xy 0.254 0) (xy 1.016 0) (xy 1.016 1.27)
+					(xy 1.778 1.27) (xy 1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "OE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

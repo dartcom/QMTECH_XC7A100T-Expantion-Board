@@ -1590,33 +1590,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 60.96) (xy 68.58 60.96)
+			(xy 59.69 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fd29451-0cb0-4138-bed5-2a35281e0640")
-	)
-	(wire
-		(pts
-			(xy 59.69 43.18) (xy 60.325 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a75c35-b85d-4c32-b921-d82f2fbee5a6")
-	)
-	(wire
-		(pts
-			(xy 59.69 58.42) (xy 60.325 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc244ae-f561-4bd1-8be9-ec89d8a46495")
+		(uuid "1612821e-9648-4f0d-9d22-2bb084356848")
 	)
 	(wire
 		(pts
@@ -1667,16 +1647,6 @@
 			(type default)
 		)
 		(uuid "2728963d-49c0-495c-ba42-a4ca45922bf7")
-	)
-	(wire
-		(pts
-			(xy 59.69 60.96) (xy 60.325 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab2954a-364f-4ddb-a9ba-666300c92958")
 	)
 	(wire
 		(pts
@@ -1740,16 +1710,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 55.88) (xy 68.58 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eba12eb-6eb3-4f96-ace0-30c3357379a8")
-	)
-	(wire
-		(pts
 			(xy 59.055 55.88) (xy 59.69 55.88)
 		)
 		(stroke
@@ -1757,16 +1717,6 @@
 			(type default)
 		)
 		(uuid "51e5385a-e8c0-43e5-8516-1fa20f38be20")
-	)
-	(wire
-		(pts
-			(xy 67.945 58.42) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585353fd-afba-456d-b876-d73622920d42")
 	)
 	(wire
 		(pts
@@ -1780,16 +1730,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 43.18) (xy 68.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6ac1de-e052-460a-9948-e3a0fa2a9dc1")
-	)
-	(wire
-		(pts
 			(xy 50.165 36.195) (xy 52.07 36.195)
 		)
 		(stroke
@@ -1797,26 +1737,6 @@
 			(type default)
 		)
 		(uuid "5ee6430a-f55a-4781-b0a0-7ad5a51126ba")
-	)
-	(wire
-		(pts
-			(xy 67.945 48.26) (xy 68.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63299334-d3c6-42b7-ba1b-7284f93a4f94")
-	)
-	(wire
-		(pts
-			(xy 68.58 45.72) (xy 67.945 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677e712f-fa33-4528-9457-7c432e268f55")
 	)
 	(wire
 		(pts
@@ -1870,13 +1790,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 60.325 48.26)
+			(xy 59.69 60.96) (xy 60.96 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d416a26-6302-4bdd-b7bb-72dc3218b7ad")
+		(uuid "79587ff3-5dc7-4175-aedb-87abc443a5cc")
 	)
 	(wire
 		(pts
@@ -1920,6 +1840,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 45.72) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd67f37-61d4-429a-9a31-8ee6caf66e7d")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 60.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93321c02-d9a5-4e5d-995e-954b72d0f680")
+	)
+	(wire
+		(pts
 			(xy 59.69 49.53) (xy 59.69 50.8)
 		)
 		(stroke
@@ -1940,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 60.325 55.88)
+			(xy 59.69 55.88) (xy 60.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1970,26 +1910,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 53.34) (xy 68.58 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5819240-c0e3-4c1e-bf6c-52f7baf276f2")
-	)
-	(wire
-		(pts
-			(xy 59.69 50.8) (xy 60.325 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c53494-b1e0-435c-ad5a-e42e2aa1e3c8")
-	)
-	(wire
-		(pts
 			(xy 59.69 63.5) (xy 62.23 63.5)
 		)
 		(stroke
@@ -2010,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 60.325 53.34)
+			(xy 59.69 53.34) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2027,16 +1947,6 @@
 			(type default)
 		)
 		(uuid "c0573191-1133-4472-9485-2055c6342ea3")
-	)
-	(wire
-		(pts
-			(xy 67.945 50.8) (xy 68.58 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1562ecc-4dfa-4c6d-a0e0-1e083901a94e")
 	)
 	(wire
 		(pts
@@ -2070,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f90ba9-995d-4d6a-8b71-ec28439d1a6d")
+	)
+	(wire
+		(pts
 			(xy 68.58 46.99) (xy 59.69 46.99)
 		)
 		(stroke
@@ -2097,16 +2017,6 @@
 			(type default)
 		)
 		(uuid "c9ab6305-b172-4d23-a714-c88b723890ff")
-	)
-	(wire
-		(pts
-			(xy 59.69 45.72) (xy 60.325 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4dbd82-7821-4d6f-ad8b-fc6110cdbaac")
 	)
 	(wire
 		(pts
@@ -2167,6 +2077,16 @@
 			(type default)
 		)
 		(uuid "e7fe5196-c9de-4a26-8b4f-81ee5902cacd")
+	)
+	(wire
+		(pts
+			(xy 59.69 43.18) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f238af0b-91bd-4ed5-b82e-d2daafa5be22")
 	)
 	(wire
 		(pts
@@ -2303,105 +2223,6 @@
 		(uuid "e6186a5b-2ae0-4069-aef5-e97723c612bf")
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ad8f2d4-0b24-457f-881e-30dae1657b99")
-		(property "Reference" "RN9"
-			(at 72.39 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 78.105 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.135 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "455f2176-8eb4-46f9-867e-c1365312e438")
-		)
-		(pin "2"
-			(uuid "8afca2f7-c180-47ae-b7c3-351966e23350")
-		)
-		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a10")
-		)
-		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87127")
-		)
-		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94306")
-		)
-		(pin "1"
-			(uuid "fb7ed9b3-f4ce-4f80-9ba7-0f543c937e8b")
-		)
-		(pin "8"
-			(uuid "a1d587e0-fed4-4697-bcea-23f1c8a3fd77")
-		)
-		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0304")
-		)
-		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN9")
-					(unit 1)
-				)
-			)
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN33")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN23")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 53.975 45.72 90)
 		(unit 1)
@@ -2410,7 +2231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bcab235-6a27-4159-b328-8165685e7bcc")
-		(property "Reference" "RN1"
+		(property "Reference" "RN?"
 			(at 52.705 40.64 90)
 			(effects
 				(font
@@ -2480,17 +2301,17 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN1")
+					(reference "RN?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN25")
+					(reference "RN13")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN15")
+					(reference "RN9")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
@@ -2509,7 +2330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22a2953e-9d21-46ec-b0cf-fa406f3a9eea")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 54.61 34.925 90)
 			(effects
 				(font
@@ -2561,21 +2382,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "R22")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "R20")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "R18")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2583,15 +2404,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 55.88 90)
-		(unit 1)
+		(at 64.77 53.34 90)
+		(mirror x)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2aeedcdf-908d-4a60-a848-51efddbbbca3")
+		(uuid "293273b3-f2c9-4092-a8d4-9682d067da39")
 		(property "Reference" "RN8"
-			(at 72.39 55.88 90)
+			(at 73.025 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2421,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.105 55.88 90)
+			(at 78.74 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2429,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 57.912 90)
+			(at 64.77 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.135 55.88 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2447,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 55.88 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,48 +2456,228 @@
 			)
 		)
 		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989378")
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937a")
 		)
 		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee7")
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee9")
 		)
 		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a0f")
+			(uuid "6d5fcc65-42fa-44ee-8bc9-027f2f139975")
 		)
 		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87126")
+			(uuid "1d05a4b4-d0ed-4f1f-81b5-ffb29d148772")
 		)
 		(pin "3"
-			(uuid "f165bb42-4502-4e5a-a69f-c216d18c9a45")
+			(uuid "cd72899b-9072-4d05-957e-884894b94307")
 		)
 		(pin "1"
-			(uuid "09df8ff1-47eb-45a0-974f-fc37501ed777")
+			(uuid "73d2826a-f056-4bbc-9115-237c2d96222b")
 		)
 		(pin "8"
-			(uuid "ee92bb77-c670-4f94-831f-518e3159d268")
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f64")
 		)
 		(pin "6"
-			(uuid "92b876e7-421b-4f01-b650-8394f9276640")
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0305")
 		)
 		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN8")
-					(unit 1)
-				)
-			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN32")
-					(unit 1)
+					(reference "RN16")
+					(unit 4)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN22")
-					(unit 1)
+					(reference "RN12")
+					(unit 4)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
+					(reference "RN8")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 64.77 58.42 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "363e5755-89f3-47ee-91fe-48deeb244ea8")
+		(property "Reference" "RN8"
+			(at 73.025 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 64.77 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "761f7379-3e7d-40be-b03b-c7b7ec432d4c")
+		)
+		(pin "2"
+			(uuid "601456ce-4016-4592-b8ae-62aa26f404df")
+		)
+		(pin "4"
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a10")
+		)
+		(pin "5"
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87127")
+		)
+		(pin "3"
+			(uuid "cd72899b-9072-4d05-957e-884894b94306")
+		)
+		(pin "1"
+			(uuid "73d2826a-f056-4bbc-9115-237c2d962229")
+		)
+		(pin "8"
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f62")
+		)
+		(pin "6"
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0304")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
+					(reference "RN16")
+					(unit 2)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
 					(reference "RN12")
-					(unit 1)
+					(unit 2)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
+					(reference "RN8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 64.77 48.26 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36576384-f003-4315-87d7-61d5ddf87278")
+		(property "Reference" "RN7"
+			(at 73.025 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 64.77 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "5516a02f-f89a-47ae-a1ca-2b75bc28061e")
+		)
+		(pin "2"
+			(uuid "54654593-919c-40ed-8277-37b8e4e15bc9")
+		)
+		(pin "4"
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a11")
+		)
+		(pin "5"
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87128")
+		)
+		(pin "3"
+			(uuid "cd72899b-9072-4d05-957e-884894b94305")
+		)
+		(pin "1"
+			(uuid "73d2826a-f056-4bbc-9115-237c2d96222a")
+		)
+		(pin "8"
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f63")
+		)
+		(pin "6"
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0303")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
+					(reference "RN15")
+					(unit 2)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
+					(reference "RN11")
+					(unit 2)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
+					(reference "RN7")
+					(unit 2)
 				)
 			)
 		)
@@ -2689,7 +2691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a800faf-cc0e-479e-bcf2-405c06277255")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR?"
 			(at 37.465 39.37 0)
 			(effects
 				(font
@@ -2739,120 +2741,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR4")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR118")
+					(reference "#PWR82")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR112")
+					(reference "#PWR76")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4baa7f2a-0dd5-4153-b4b8-4f3160dc0e82")
-		(property "Reference" "RN6"
-			(at 72.39 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 78.105 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 52.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.135 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989377")
-		)
-		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee6")
-		)
-		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a0e")
-		)
-		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87125")
-		)
-		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94304")
-		)
-		(pin "1"
-			(uuid "42862586-0655-4710-b758-60c3d38ca459")
-		)
-		(pin "8"
-			(uuid "12fb6788-c9b0-49ae-994c-b79393c3e169")
-		)
-		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0302")
-		)
-		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN6")
-					(unit 1)
-				)
-			)
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN30")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN20")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN10")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60fadee3-791e-477e-a63e-fe88814956bd")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR?"
 			(at 37.465 72.39 0)
 			(effects
 				(font
@@ -2917,21 +2820,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR5")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR114")
+					(reference "#PWR83")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR108")
+					(reference "#PWR77")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR102")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d90ff37-be6d-40f3-8bb0-c7c34d2ff698")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 36.195 77.47 0)
 			(effects
 				(font
@@ -3000,7 +2903,7 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "C2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3021,106 +2924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 43.18 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7360c7fc-ed4c-4c8d-9e0b-fd0efde6b0d7")
-		(property "Reference" "RN3"
-			(at 72.39 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 78.105 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 41.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.135 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989376")
-		)
-		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee5")
-		)
-		(pin "4"
-			(uuid "691c0a8a-54ca-4b33-8bef-998c575458a7")
-		)
-		(pin "5"
-			(uuid "53176ef1-45db-4f63-be40-e8eebb5ee5eb")
-		)
-		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94303")
-		)
-		(pin "1"
-			(uuid "11b4bfd7-0bc3-4c12-add2-c3c9c25c8214")
-		)
-		(pin "8"
-			(uuid "70a164ba-a551-48a7-8d50-a85beb7c7192")
-		)
-		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0301")
-		)
-		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN3")
-					(unit 1)
-				)
-			)
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN27")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN17")
-					(unit 1)
-				)
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 24.13 40.64 0)
 		(unit 1)
@@ -3129,7 +2932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d3def68-77f8-425f-9d8a-4ef071710a58")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR?"
 			(at 24.13 44.45 0)
 			(effects
 				(font
@@ -3179,21 +2982,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR1")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR113")
+					(reference "#PWR79")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR107")
+					(reference "#PWR73")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR101")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -3208,7 +3011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d7c00c0-8578-4f75-9fce-9e2bf0f55c4d")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR?"
 			(at 29.845 77.47 0)
 			(effects
 				(font
@@ -3258,21 +3061,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR2")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR115")
+					(reference "#PWR80")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR109")
+					(reference "#PWR74")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR103")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "828c038c-f42e-4c3a-8564-1b8952458ec7")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 32.385 48.895 0)
 			(effects
 				(font
@@ -3395,21 +3198,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3417,16 +3220,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 53.34 90)
-		(mirror x)
+		(at 64.77 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d0ff6e8-3047-4198-9501-6a7a81800731")
-		(property "Reference" "RN7"
-			(at 72.39 53.34 90)
+		(uuid "8a822129-dcaf-431a-9b6a-1d92b59216c8")
+		(property "Reference" "RN8"
+			(at 73.025 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3236,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.105 53.34 90)
+			(at 78.74 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3244,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 51.308 90)
+			(at 64.77 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.135 53.34 0)
+			(at 64.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3262,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 53.34 0)
+			(at 64.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,47 +3271,41 @@
 			)
 		)
 		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937a")
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937c")
 		)
 		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee9")
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677eeb")
 		)
 		(pin "4"
-			(uuid "659e13ae-6858-42cb-b4ed-40e2a4de1aa3")
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a13")
 		)
 		(pin "5"
-			(uuid "cb0d1f3e-3fa0-464f-bdb1-dea33ebd31bc")
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e8712a")
 		)
 		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94307")
+			(uuid "cd72899b-9072-4d05-957e-884894b94309")
 		)
 		(pin "1"
-			(uuid "6da98b72-a83f-41b3-a926-1924ec0029a8")
+			(uuid "54704ce0-49a9-44b2-9450-8d9f53310394")
 		)
 		(pin "8"
-			(uuid "24e623fe-5e58-44bd-a3a3-066ff6d67b11")
+			(uuid "f96a2d07-8e4d-40e1-9a73-a6d3bd4b5ac2")
 		)
 		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0305")
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0307")
 		)
 		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN7")
-					(unit 1)
-				)
-			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN31")
+					(reference "RN16")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN21")
+					(reference "RN12")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN11")
+					(reference "RN8")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ced2bef-b403-42a8-9b6e-3127f7b3062c")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 27.94 77.47 0)
 			(effects
 				(font
@@ -3578,7 +3374,7 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "C1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3600,15 +3396,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 48.26 90)
-		(unit 1)
+		(at 64.77 45.72 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a32fded7-1f7e-4ef0-973f-a453cb20735b")
-		(property "Reference" "RN5"
-			(at 72.39 48.26 90)
+		(uuid "a55bcc4d-11e1-49f6-8a6c-fe58b0813c2b")
+		(property "Reference" "RN7"
+			(at 73.025 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3412,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.105 48.26 90)
+			(at 78.74 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 50.292 90)
+			(at 64.77 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.135 48.26 0)
+			(at 64.77 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3438,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 48.26 0)
+			(at 64.77 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,63 +3447,57 @@
 			)
 		)
 		(pin "7"
-			(uuid "dd764cc4-b140-4f37-ba5b-2c41d59a9947")
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937b")
 		)
 		(pin "2"
-			(uuid "2c11270a-3c51-4a7b-9900-315a650eb02f")
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677eea")
 		)
 		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a11")
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a12")
 		)
 		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87128")
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87129")
 		)
 		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94305")
+			(uuid "f775961f-b52d-4c79-bc38-64a406b9516e")
 		)
 		(pin "1"
-			(uuid "2e2dadc5-915f-43d4-a4f2-b5559bf5cbe9")
+			(uuid "73d2826a-f056-4bbc-9115-237c2d96222c")
 		)
 		(pin "8"
-			(uuid "5cc6f12f-0f73-4273-9ab1-29e7f957f443")
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f65")
 		)
 		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0303")
+			(uuid "da4697e7-78f3-40cc-b432-b7fa99aa6a37")
 		)
 		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN5")
-					(unit 1)
-				)
-			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN29")
-					(unit 1)
+					(reference "RN15")
+					(unit 3)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN19")
-					(unit 1)
+					(reference "RN11")
+					(unit 3)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN9")
-					(unit 1)
+					(reference "RN7")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 60.96 90)
-		(unit 1)
+		(at 64.77 55.88 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aaee2652-9bec-4b23-9479-789d9a6b99b1")
-		(property "Reference" "RN10"
-			(at 72.39 60.96 90)
+		(uuid "aa72e7db-094a-4e2f-9a72-51f8e2b09572")
+		(property "Reference" "RN8"
+			(at 73.025 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3505,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.105 60.96 90)
+			(at 78.74 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3513,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 62.992 90)
+			(at 64.77 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.135 60.96 0)
+			(at 64.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3531,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 60.96 0)
+			(at 64.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,48 +3540,42 @@
 			)
 		)
 		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937c")
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989378")
 		)
 		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677eeb")
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee7")
 		)
 		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a13")
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a0f")
 		)
 		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e8712a")
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87126")
 		)
 		(pin "3"
-			(uuid "cd72899b-9072-4d05-957e-884894b94309")
+			(uuid "aa77631c-c1ed-4264-bb39-ce1a99e1a84a")
 		)
 		(pin "1"
-			(uuid "a0d0b318-cba3-4a9f-9b1d-c8c2fe38a73c")
+			(uuid "73d2826a-f056-4bbc-9115-237c2d962228")
 		)
 		(pin "8"
-			(uuid "1abbbab0-8035-4668-b1ec-105aa2cc8ed1")
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f61")
 		)
 		(pin "6"
-			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0307")
+			(uuid "c3274892-d237-4570-9378-de178afff11d")
 		)
 		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN10")
-					(unit 1)
-				)
-			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN34")
-					(unit 1)
+					(reference "RN16")
+					(unit 3)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN24")
-					(unit 1)
+					(reference "RN12")
+					(unit 3)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN14")
-					(unit 1)
+					(reference "RN8")
+					(unit 3)
 				)
 			)
 		)
@@ -3805,7 +3589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2146240-4efa-478f-a9ae-3e909d3c561f")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR?"
 			(at 29.845 85.09 0)
 			(effects
 				(font
@@ -3855,21 +3639,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR3")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR116")
+					(reference "#PWR81")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR110")
+					(reference "#PWR75")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR104")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -3884,7 +3668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b69a0408-67d0-4669-9644-035b21cb0739")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 62.865 34.925 90)
 			(effects
 				(font
@@ -3936,21 +3720,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "R23")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "R21")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "R19")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba374947-c992-4c82-82c3-71e1e6bdd9d2")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR?"
 			(at 52.07 42.545 0)
 			(effects
 				(font
@@ -4015,21 +3799,21 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "#PWR6")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "#PWR117")
+					(reference "#PWR84")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "#PWR111")
+					(reference "#PWR78")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "#PWR105")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -4037,15 +3821,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 64.135 45.72 90)
+		(at 64.77 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3303b28-fd10-4a11-8858-7a5100df2b94")
-		(property "Reference" "RN4"
-			(at 72.39 45.72 90)
+		(uuid "c1a9f33f-104f-4642-bf56-36661202e07e")
+		(property "Reference" "RN7"
+			(at 73.025 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +3837,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 78.105 45.72 90)
+			(at 78.74 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +3845,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 64.135 47.752 90)
+			(at 64.77 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +3854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.135 45.72 0)
+			(at 64.77 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +3863,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 64.135 45.72 0)
+			(at 64.77 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,47 +3872,41 @@
 			)
 		)
 		(pin "7"
-			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af498937b")
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989377")
 		)
 		(pin "2"
-			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677eea")
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee6")
 		)
 		(pin "4"
-			(uuid "d4a20bce-754a-483e-badc-d423c29b6a12")
+			(uuid "d4a20bce-754a-483e-badc-d423c29b6a0e")
 		)
 		(pin "5"
-			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87129")
+			(uuid "4bf37749-d25f-40d5-9f87-e77ab7e87125")
 		)
 		(pin "3"
-			(uuid "ed424f5a-7b3e-4938-bdfc-82b2a1f3d169")
+			(uuid "cd72899b-9072-4d05-957e-884894b94304")
 		)
 		(pin "1"
-			(uuid "07e8f29b-14e3-42f2-8d6d-e5c60573a301")
+			(uuid "0e07227e-d635-47d5-9125-a9a118fff7f8")
 		)
 		(pin "8"
-			(uuid "aca0d5ec-da2e-4a40-8a04-a5d05f966c96")
+			(uuid "692c375c-84db-4fa2-9d36-4bb139d1d997")
 		)
 		(pin "6"
-			(uuid "8e46f5ef-584a-4701-8619-a553c3e7f3f4")
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0302")
 		)
 		(instances
-			(project "R2R-DAC"
-				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN4")
-					(unit 1)
-				)
-			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN28")
+					(reference "RN15")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN18")
+					(reference "RN11")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
-					(reference "RN8")
+					(reference "RN7")
 					(unit 1)
 				)
 			)
@@ -4143,7 +3921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbcad00d-fa89-4fcb-af5b-c74048ef647f")
-		(property "Reference" "RN2"
+		(property "Reference" "RN?"
 			(at 52.07 64.135 90)
 			(effects
 				(font
@@ -4213,22 +3991,116 @@
 		(instances
 			(project "R2R-DAC"
 				(path "/149b5cc8-ecb9-451e-a17c-285f9613317e"
-					(reference "RN2")
+					(reference "RN?")
 					(unit 1)
 				)
 			)
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
-					(reference "RN26")
+					(reference "RN14")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
-					(reference "RN16")
+					(reference "RN10")
 					(unit 1)
 				)
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
 					(reference "RN6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 64.77 43.18 90)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "debb310d-dfa8-498b-af6a-c8cd23ed7611")
+		(property "Reference" "RN7"
+			(at 73.025 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 78.74 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 64.77 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7aa727aa-29ad-4aeb-89a3-1b5af4989376")
+		)
+		(pin "2"
+			(uuid "17793a4a-5abe-4c6e-b16f-fc57fb677ee5")
+		)
+		(pin "4"
+			(uuid "b41d0694-70c8-4eb8-afd4-f4c6a99cc2ff")
+		)
+		(pin "5"
+			(uuid "4e2566db-1d86-48d9-9960-e3c5dfbc1e60")
+		)
+		(pin "3"
+			(uuid "cd72899b-9072-4d05-957e-884894b94303")
+		)
+		(pin "1"
+			(uuid "73d2826a-f056-4bbc-9115-237c2d962226")
+		)
+		(pin "8"
+			(uuid "c853d4e3-f59d-4c99-8c2b-43350c376f5f")
+		)
+		(pin "6"
+			(uuid "10de0316-f7a5-4d21-a771-a7ba1a7c0301")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/316994c8-c836-4d3e-8dfb-4e742a31d238"
+					(reference "RN15")
+					(unit 4)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/7ed4c6cf-6516-42e0-9af5-ffa800c03b76"
+					(reference "RN11")
+					(unit 4)
+				)
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/78456f10-420c-464d-bfaa-46b2e05e0014/b945119e-edaa-4e4c-a1ed-993a8c4065cf"
+					(reference "RN7")
+					(unit 4)
 				)
 			)
 		)

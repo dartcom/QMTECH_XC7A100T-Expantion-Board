@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -499,92 +499,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.124,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "100Ω_Diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.124,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50Ω_Single",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50Ω_Single_2W",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1575,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "90Ω_Diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1575,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PORT_50Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.1565,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -595,124 +510,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_BA*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_A*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_D0_*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_D1_*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/fpga-board/ddr3/DDR3_DQS*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_WE"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_CKE"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_RAS"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_CAS"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_CS"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/ddr3/DDR3_RST"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/RXA_0*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/RXA_1*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/RXA_2*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/RXA_C*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/D0*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/D1*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/D2*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/hdmi-board/CK*"
-      },
-      {
-        "netclass": "100Ω_Diff",
-        "pattern": "/fpga-board/ddr3/DDR3_CLK*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/vga-board/VGA_BLUE*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/vga-board/VGA_GREEN*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/vga-board/VGA_RED*"
-      },
-      {
-        "netclass": "PORT_50Ω",
-        "pattern": "/fpga-board/fpga-gpio/PORT*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/fpga-board/fpga-config/QSPI*"
-      },
-      {
-        "netclass": "50Ω_Single",
-        "pattern": "/video-debug/DEBUG*"
-      },
-      {
-        "netclass": "90Ω_Diff",
-        "pattern": "/programmer/D*"
-      },
-      {
-        "netclass": "90Ω_Diff",
-        "pattern": "/programmer/USB*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/CVBS-board/"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
