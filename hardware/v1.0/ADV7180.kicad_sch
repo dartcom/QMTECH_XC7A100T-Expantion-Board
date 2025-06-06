@@ -4740,7 +4740,7 @@
 	)
 	(rectangle
 		(start 59.69 144.78)
-		(end 116.84 172.72)
+		(end 111.76 172.72)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -4931,12 +4931,6 @@
 		(uuid "3232380c-09fd-437a-b094-32452134fd66")
 	)
 	(junction
-		(at 95.25 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3724c86e-a0c6-45ea-b8a9-8527ccf7c7db")
-	)
-	(junction
 		(at 152.4 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4947,12 +4941,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ccaf6e7-e218-4b05-91c9-6cd3de569aad")
-	)
-	(junction
-		(at 104.14 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f0efa3a-8eee-41e1-8409-b2dd71c40a9f")
 	)
 	(junction
 		(at 107.315 125.095)
@@ -5057,12 +5045,6 @@
 		(uuid "a350ca36-4ca9-4d13-8c73-3d026b9ea085")
 	)
 	(junction
-		(at 104.14 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a433f252-5f9d-434e-9ab8-9a51fb0ee745")
-	)
-	(junction
 		(at 41.91 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5091,12 +5073,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb0872c5-5637-4de9-bca1-fa9ec164d916")
-	)
-	(junction
-		(at 95.25 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bff56a69-173c-4667-b46a-c5f5ea72a4da")
 	)
 	(junction
 		(at 73.66 78.74)
@@ -5727,16 +5703,6 @@
 			(type default)
 		)
 		(uuid "29c75dd0-dad6-4cc5-ab41-a1b277e86585")
-	)
-	(wire
-		(pts
-			(xy 95.25 167.64) (xy 104.14 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa51e32-24ab-4264-b03c-7bf06655e63b")
 	)
 	(wire
 		(pts
@@ -6398,16 +6364,6 @@
 		)
 		(uuid "8c51b951-2fa3-4c29-b594-5091b63509c6")
 	)
-	(wire
-		(pts
-			(xy 104.14 162.56) (xy 113.03 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c79f382-1687-4610-b037-2fae4ebba6e8")
-	)
 	(bus
 		(pts
 			(xy 110.49 39.37) (xy 110.49 41.91)
@@ -6597,16 +6553,6 @@
 			(type default)
 		)
 		(uuid "a74f3bed-dd53-4143-8eb9-6d77bf4701a0")
-	)
-	(wire
-		(pts
-			(xy 95.25 162.56) (xy 104.14 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d62218-58a8-4abc-bb3e-0c7efdd31e63")
 	)
 	(wire
 		(pts
@@ -6837,16 +6783,6 @@
 			(type default)
 		)
 		(uuid "ce824827-cef5-4e36-929a-c2eaf2ae05dd")
-	)
-	(wire
-		(pts
-			(xy 104.14 167.64) (xy 113.03 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb646b3-968c-40da-bc38-0fae30017e57")
 	)
 	(wire
 		(pts
@@ -7685,7 +7621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.315 127.635 0)
 			(effects
 				(font
@@ -9671,7 +9607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.315 133.985 0)
 			(effects
 				(font
@@ -11208,75 +11144,6 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 113.03 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88fb6968-0349-492a-b23d-822c50390619")
-		(property "Reference" "C22"
-			(at 111.125 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nf"
-			(at 111.125 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8474bf3-980b-429c-b603-57f76f38dc3c")
-		)
-		(pin "2"
-			(uuid "cfc5b93e-5232-4e01-8996-308208cca47d")
-		)
-		(instances
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13186,75 +13053,6 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da768ef3-3013-4049-9854-8dfdc0e786c3")
-		(property "Reference" "C21"
-			(at 102.235 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 102.235 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be90a005-b449-487c-b07b-111173e71baf")
-		)
-		(pin "2"
-			(uuid "5d73f4ea-9cd7-4112-8168-7064dec61bb3")
-		)
-		(instances
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
-					(reference "C21")
 					(unit 1)
 				)
 			)
