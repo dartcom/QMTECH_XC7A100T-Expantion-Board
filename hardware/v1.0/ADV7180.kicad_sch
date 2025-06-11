@@ -5091,7 +5091,7 @@
 		(end 34.29 47.625)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -5103,7 +5103,7 @@
 		(end 53.975 64.135)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -5115,7 +5115,7 @@
 		(end 49.53 79.375)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
