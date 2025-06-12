@@ -2887,7 +2887,7 @@
 		(end 190.5 55.88)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2899,7 +2899,7 @@
 		(end 196.215 73.66)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2911,7 +2911,7 @@
 		(end 246.38 43.18)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2923,7 +2923,7 @@
 		(end 56.515 119.38)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2935,7 +2935,7 @@
 		(end 118.745 115.57)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2947,7 +2947,7 @@
 		(end 160.02 94.615)
 		(stroke
 			(width 0.508)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
