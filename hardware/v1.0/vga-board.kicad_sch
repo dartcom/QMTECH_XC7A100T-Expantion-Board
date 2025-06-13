@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "~"
 			(at 184.0865 61.595 0)
 			(effects
 				(font
@@ -7217,7 +7217,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 176.53 62.865 90)
 			(effects
 				(font

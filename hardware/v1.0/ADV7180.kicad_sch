@@ -9688,7 +9688,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "5.1k"
 			(at 103.505 96.52 90)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -11020,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0603"
 			(at 132.715 58.42 90)
 			(effects
 				(font

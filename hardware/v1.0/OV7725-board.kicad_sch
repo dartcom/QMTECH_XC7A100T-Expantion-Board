@@ -7310,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "4.7k"
 			(at 24.384 65.786 0)
 			(effects
 				(font
@@ -7318,7 +7318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0603"
 			(at 24.765 64.77 90)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 82.55 29.972 90)
 			(effects
 				(font
