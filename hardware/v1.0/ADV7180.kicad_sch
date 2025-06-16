@@ -4614,27 +4614,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mylib:TLV62585"
+		(symbol "Regulator_Switching:TLV62568DRL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 8.89 0)
+				(at -5.08 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TLV62585"
+			(property "Value" "TLV62568DRL"
 				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4643,7 +4665,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "Step-Down Buck DC-DC Regulator Adjustable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4652,7 +4674,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "ki_fp_filters" "SOT*563*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4661,38 +4683,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV62585_1_1"
+			(symbol "TLV62568DRL_0_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(symbol "TLV62568DRL_1_1"
 				(pin power_in line
-					(at -8.89 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -4709,8 +4715,26 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -8.89 -2.54 0)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -4719,7 +4743,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4727,10 +4751,11 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 2.54 180)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "PG"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4746,7 +4771,7 @@
 					)
 				)
 				(pin power_out line
-					(at 8.89 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -4755,7 +4780,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4764,7 +4789,7 @@
 					)
 				)
 				(pin input line
-					(at 8.89 -2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -4773,7 +4798,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5541,12 +5566,6 @@
 		(uuid "14d50150-355e-4f4d-8a2f-03234a62fa76")
 	)
 	(junction
-		(at 68.58 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aa729aa-d8f5-4ab6-b8b9-4237c1641fd3")
-	)
-	(junction
 		(at 38.735 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5619,12 +5638,6 @@
 		(uuid "64de39bd-8986-4e88-9974-54f347a899fa")
 	)
 	(junction
-		(at 72.39 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76f2a739-08b5-4f73-8086-9187de5b15f8")
-	)
-	(junction
 		(at 39.37 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5635,6 +5648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8809d307-1269-4c5b-9f5c-8e6d9fb29071")
+	)
+	(junction
+		(at 74.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887612a6-212c-48e3-a6bd-736be1ec1b3d")
 	)
 	(junction
 		(at 96.52 73.66)
@@ -5671,6 +5690,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a613b80b-c7f0-4d41-bb5b-21768aa1543f")
+	)
+	(junction
+		(at 68.58 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a83d973e-332d-4d99-bc44-9a797b1df20e")
 	)
 	(junction
 		(at 76.2 78.74)
@@ -5815,10 +5840,6 @@
 	(no_connect
 		(at 54.61 40.64)
 		(uuid "b46ca4e6-7b7d-4f75-95e4-95e7330beba4")
-	)
-	(no_connect
-		(at 90.17 121.92)
-		(uuid "ca6c90f4-1210-4877-aa9a-9352bbc7f5e2")
 	)
 	(no_connect
 		(at 156.21 71.12)
@@ -6166,6 +6187,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 127) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c74b9f-e04e-4b3d-9c87-dd41b387f9e5")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 139.7 53.34)
 		)
 		(stroke
@@ -6193,6 +6224,16 @@
 			(type default)
 		)
 		(uuid "16e7ed26-9291-4910-b717-3a16da372837")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1744081a-2210-4537-acb1-55680f4a5c76")
 	)
 	(wire
 		(pts
@@ -6253,16 +6294,6 @@
 			(type default)
 		)
 		(uuid "1a6876f0-b26f-47d8-8ad8-e0c1bf54e44d")
-	)
-	(wire
-		(pts
-			(xy 72.39 127) (xy 72.39 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b84166a-f7db-42aa-b398-73e1208845fd")
 	)
 	(bus
 		(pts
@@ -6766,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 128.27) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b370f6-92da-4cab-aa72-276a4775831a")
+	)
+	(wire
+		(pts
 			(xy 76.2 78.74) (xy 73.66 78.74)
 		)
 		(stroke
@@ -6773,16 +6814,6 @@
 			(type default)
 		)
 		(uuid "72af0d50-1ce6-4f15-a9e9-21be3dddb35b")
-	)
-	(wire
-		(pts
-			(xy 68.58 129.54) (xy 72.39 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a3b7fb-ff67-477e-b485-a96d7883d00e")
 	)
 	(wire
 		(pts
@@ -7186,16 +7217,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 68.58 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b43e2b61-8409-4d1e-953b-4aeba9f7d16e")
-	)
-	(wire
-		(pts
 			(xy 68.58 121.92) (xy 68.58 123.19)
 		)
 		(stroke
@@ -7243,6 +7264,16 @@
 			(type default)
 		)
 		(uuid "b6e59fe9-b73c-4e07-970e-0c1dfc9faa8e")
+	)
+	(wire
+		(pts
+			(xy 68.58 128.27) (xy 74.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b931b464-bb34-4b3f-b6c5-d99c59130e83")
 	)
 	(wire
 		(pts
@@ -7543,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "ea63dd43-99fd-4f7e-8d2c-ba54beee7031")
+	)
+	(wire
+		(pts
+			(xy 74.93 134.62) (xy 82.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbb3680-5853-4b76-a912-7ad4525b0eb2")
 	)
 	(wire
 		(pts
@@ -9357,7 +9398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 125.73 0)
 			(effects
 				(font
@@ -10357,7 +10398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 129.54 0)
+		(at 68.58 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10365,7 +10406,7 @@
 		(dnp no)
 		(uuid "67b68651-919e-4d95-b572-29b3cfe37865")
 		(property "Reference" "#PWR30"
-			(at 68.58 135.89 0)
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 65.405 131.445 0)
+			(at 65.405 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 129.54 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 129.54 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 129.54 0)
+			(at 68.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,6 +10753,87 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TLV62568DRL")
+		(at 82.55 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1de12c-30bc-4524-950f-540ea71a4d5b")
+		(property "Reference" "U5"
+			(at 82.55 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62568DRL"
+			(at 82.55 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fae3862e-750b-429b-a054-bfeb7b9511a1")
+		)
+		(pin "5"
+			(uuid "21460371-971d-4ead-966a-e3ef9ef1d729")
+		)
+		(pin "1"
+			(uuid "61e6bcc7-7be6-4bee-9498-81c09ddf1ee8")
+		)
+		(pin "4"
+			(uuid "3cb4d9fa-547d-47b6-af9f-e3e0fe5f06b0")
+		)
+		(pin "6"
+			(uuid "6672eb74-b163-4878-9e9e-05d6fb3ae240")
+		)
+		(pin "2"
+			(uuid "1afabd45-917c-41fd-a607-9f2c5589e41e")
+		)
+		(instances
+			(project ""
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11334,7 +11456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 128.27 0)
 			(effects
 				(font
@@ -12535,86 +12657,6 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mylib:TLV62585")
-		(at 81.28 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7dab0bb-b449-4597-8497-e398071d41e6")
-		(property "Reference" "U5"
-			(at 81.28 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV62585"
-			(at 81.28 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 81.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8a35327e-ab72-4807-ba59-d3e94a3069f7")
-		)
-		(pin "1"
-			(uuid "03f61d36-e39b-4d3f-8f67-7706c98cce11")
-		)
-		(pin "6"
-			(uuid "85bada59-da1a-42af-802f-12a9299b0823")
-		)
-		(pin "3"
-			(uuid "1e55151a-ba68-425f-bad6-3732f44ea60e")
-		)
-		(pin "2"
-			(uuid "1997b551-6d3c-44b2-ae43-637e78d3745c")
-		)
-		(pin "4"
-			(uuid "8b46f10f-284f-4c61-9714-0758a34d699f")
-		)
-		(instances
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
-					(reference "U5")
 					(unit 1)
 				)
 			)
