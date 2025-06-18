@@ -8437,7 +8437,7 @@
 		)
 		(uuid "d81796e7-fa04-4a76-ad8a-1f164297f5ab")
 	)
-	(text "INDICATOR"
+	(text "LEDS"
 		(exclude_from_sim no)
 		(at 16.256 159.004 0)
 		(effects
@@ -8641,6 +8641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7cf3c14-bf60-47a1-869b-d8d4bd26e06e")
+	)
+	(junction
+		(at 209.55 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb694ef7-67c7-4bc7-b6cd-92a4a526f98b")
 	)
 	(junction
 		(at 43.18 173.99)
@@ -11731,6 +11737,16 @@
 		)
 		(uuid "547d9ee1-d4b4-4e38-a50e-63ed0784fe7b")
 	)
+	(wire
+		(pts
+			(xy 209.55 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d84cfd-54a4-475b-8686-eb592f91de0e")
+	)
 	(bus
 		(pts
 			(xy 255.27 64.77) (xy 255.27 67.31)
@@ -12503,7 +12519,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 215.9 120.65)
+			(xy 207.01 120.65) (xy 209.55 120.65)
 		)
 		(stroke
 			(width 0)
@@ -15001,7 +15017,7 @@
 		)
 		(uuid "010f006a-c9ad-4d7a-a104-b908dd688d12")
 	)
-	(label "PMOD1_0P"
+	(label "PMOD1_0N"
 		(at 106.68 35.56 0)
 		(effects
 			(font
@@ -15061,16 +15077,6 @@
 		)
 		(uuid "0cda81df-54c1-417e-8895-e446f1ffdf36")
 	)
-	(label "V_USB"
-		(at 72.39 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f56fe7a-69ec-4935-8784-ffd1d648dcfa")
-	)
 	(label "PORT0_BLUE2"
 		(at 72.39 35.56 0)
 		(effects
@@ -15090,16 +15096,6 @@
 			(justify right bottom)
 		)
 		(uuid "14abc865-08e1-4e83-a446-50151f18f315")
-	)
-	(label "V_USB"
-		(at 147.32 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18bc75dc-de8d-4d76-8171-069c14ecf0f7")
 	)
 	(label "LED0_4"
 		(at 49.53 163.83 0)
@@ -15281,16 +15277,6 @@
 		)
 		(uuid "2e5fab05-1b32-4ad8-9718-859d4a30e3a7")
 	)
-	(label "V_USB"
-		(at 41.91 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ef49483-cf24-49cb-af7d-3cc8892e6138")
-	)
 	(label "UART_DN"
 		(at 111.76 147.32 180)
 		(effects
@@ -15351,7 +15337,7 @@
 		)
 		(uuid "34aab510-d50d-427e-a635-c1a090f72ad3")
 	)
-	(label "PMOD1_2P"
+	(label "PMOD1_2N"
 		(at 106.68 30.48 0)
 		(effects
 			(font
@@ -15421,7 +15407,7 @@
 		)
 		(uuid "3cd525a1-6fff-4ac3-b089-0b9490d42036")
 	)
-	(label "PMOD0_3N"
+	(label "PMOD0_3P"
 		(at 157.48 38.1 180)
 		(effects
 			(font
@@ -15481,7 +15467,7 @@
 		)
 		(uuid "442fdf1b-1c6e-4b81-917d-c922f5a11631")
 	)
-	(label "PMOD1_0N"
+	(label "PMOD1_0P"
 		(at 157.48 35.56 180)
 		(effects
 			(font
@@ -15641,7 +15627,7 @@
 		)
 		(uuid "507858f9-8833-479c-804b-5816eae279e5")
 	)
-	(label "PMOD0_0P"
+	(label "PMOD0_0N"
 		(at 106.68 45.72 0)
 		(effects
 			(font
@@ -15721,7 +15707,7 @@
 		)
 		(uuid "575e1d00-3807-4e22-bcc5-1e5119ff5558")
 	)
-	(label "PMOD1_1P"
+	(label "PMOD1_1N"
 		(at 106.68 33.02 0)
 		(effects
 			(font
@@ -15811,7 +15797,7 @@
 		)
 		(uuid "5e25fbe0-f712-4374-9013-48084e53b30f")
 	)
-	(label "PMOD1_3P"
+	(label "PMOD1_3N"
 		(at 106.68 27.94 0)
 		(effects
 			(font
@@ -15831,7 +15817,7 @@
 		)
 		(uuid "609b40fc-e399-4dd6-9e87-d195131bd8b1")
 	)
-	(label "PMOD0_1P"
+	(label "PMOD0_1N"
 		(at 106.68 43.18 0)
 		(effects
 			(font
@@ -15881,7 +15867,7 @@
 		)
 		(uuid "6645ac46-d30e-4cc1-9d3a-eafb5062ced7")
 	)
-	(label "PMOD1_3N"
+	(label "PMOD1_3P"
 		(at 157.48 27.94 180)
 		(effects
 			(font
@@ -15901,7 +15887,7 @@
 		)
 		(uuid "6bc48c8c-14b9-46aa-b6c7-a80a15e36eaa")
 	)
-	(label "PMOD0_2N"
+	(label "PMOD0_2P"
 		(at 157.48 40.64 180)
 		(effects
 			(font
@@ -16141,7 +16127,7 @@
 		)
 		(uuid "83969ad2-5437-4727-9ff6-b5bb56c16c20")
 	)
-	(label "PMOD1_2N"
+	(label "PMOD1_2P"
 		(at 157.48 30.48 180)
 		(effects
 			(font
@@ -16281,7 +16267,7 @@
 		)
 		(uuid "9f104982-c1a9-4569-9401-9b9e341ec2fd")
 	)
-	(label "PMOD0_2P"
+	(label "PMOD0_2N"
 		(at 106.68 40.64 0)
 		(effects
 			(font
@@ -16581,7 +16567,7 @@
 		)
 		(uuid "c05add17-8626-40c7-9e63-8a8b2cb1b806")
 	)
-	(label "PMOD1_1N"
+	(label "PMOD1_1P"
 		(at 157.48 33.02 180)
 		(effects
 			(font
@@ -16671,7 +16657,7 @@
 		)
 		(uuid "cbfb42c1-395a-40bc-bdb2-9d9d4cb126ff")
 	)
-	(label "PMOD0_3P"
+	(label "PMOD0_3N"
 		(at 106.68 38.1 0)
 		(effects
 			(font
@@ -16741,7 +16727,7 @@
 		)
 		(uuid "d961a623-d4be-4c92-af6d-06fd50d445f2")
 	)
-	(label "PMOD0_1N"
+	(label "PMOD0_1P"
 		(at 157.48 43.18 180)
 		(effects
 			(font
@@ -16810,16 +16796,6 @@
 			(justify right bottom)
 		)
 		(uuid "de5db306-04f9-4e64-8e96-92c57a3b79ce")
-	)
-	(label "V_USB"
-		(at 116.84 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfc37bb0-2a6f-45cc-a1cc-5bfd0a91561b")
 	)
 	(label "PORT1_BLUE3"
 		(at 271.78 85.09 180)
@@ -16991,7 +16967,7 @@
 		)
 		(uuid "f40ba718-444a-43ed-9fda-cf75bc5605fe")
 	)
-	(label "PMOD0_0N"
+	(label "PMOD0_0P"
 		(at 157.48 45.72 180)
 		(effects
 			(font
@@ -17787,6 +17763,71 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.39 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2153d3d0-ea38-4bf7-8cef-d8edaf9eb570")
+		(property "Reference" "#PWR0142"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 77.724 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5d0a10-028b-431f-a543-46577375a919")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -22425,6 +22466,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc7c0dda-d412-4382-92dd-ba1a95af195b")
+		(property "Reference" "#PWR0143"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 36.576 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4802e87f-8c4d-4a3f-bf27-f47383afed26")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 129.54 90)
 		(mirror x)
@@ -22941,6 +23048,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc23173a-662f-4213-bc07-6a4c25b8c9db")
+		(property "Reference" "#PWR0141"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.654 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14af0bd9-2e86-45dd-97cd-c1f4f91a5f92")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 58.42 163.83 0)
 		(mirror y)
@@ -23012,6 +23184,71 @@
 			(project ""
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cebcc51c-5c52-4565-b8d4-791ea2b366be")
+		(property "Reference" "#PWR0140"
+			(at 209.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.598 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a75a925-9434-4bfa-ab76-30300c7bcca8")
+		)
+		(instances
+			(project ""
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -24360,6 +24597,72 @@
 			(project ""
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee43bf9f-edbe-4405-b112-aad466ae0dbb")
+		(property "Reference" "#PWR0144"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.506 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "015317e1-0f30-40e9-80b9-49b45f4253dd")
+		)
+		(instances
+			(project "QMTECH_XC7A100T-Expantion-Board"
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)

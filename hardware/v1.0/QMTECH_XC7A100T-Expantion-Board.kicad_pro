@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -234,7 +234,7 @@
           "corner_style": 1,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
-          "single_sided": false,
+          "single_sided": true,
           "spacing": 0.6
         },
         "single_track_defaults": {
@@ -527,43 +527,73 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.203,
+        "diff_pair_width": 0.124,
+        "name": "100Ω_diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.124
+      },
+      {
         "clearance": 0.1,
         "name": "50Ω_single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.45,
         "via_drill": 0.2
       },
       {
-        "name": "PORT0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "PORT1",
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1582,
+        "name": "90Ω_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1582
+      },
+      {
+        "name": "PMOD0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "SD",
+        "name": "PMOD1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "name": "PORT0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PORT1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "VGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "YUV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -600,6 +630,26 @@
       {
         "netclass": "VGA",
         "pattern": "/vga-board/VGA*"
+      },
+      {
+        "netclass": "90Ω_diff",
+        "pattern": "/UART_D*"
+      },
+      {
+        "netclass": "90Ω_diff",
+        "pattern": "/PD*"
+      },
+      {
+        "netclass": "100Ω_diff",
+        "pattern": "/PMOD*"
+      },
+      {
+        "netclass": "PMOD1",
+        "pattern": "/PMOD1*"
+      },
+      {
+        "netclass": "PMOD0",
+        "pattern": "/PMOD0*"
       }
     ]
   },

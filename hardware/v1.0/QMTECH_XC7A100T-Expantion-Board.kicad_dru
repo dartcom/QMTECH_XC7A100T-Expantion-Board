@@ -1,25 +1,47 @@
 (version 1)
+
 (rule PORT0_length
     (condition "A.hasNetclass('PORT0')")
     (constraint length (min 50mm) (opt 52mm) (max 55mm))
 )
 
 (rule PORT0_clearance
-	(condition "A.hasNetclass('PORT0') && B.hasNetclass('PORT0') && A.NetName != B.NetName")
-	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('PORT0') && B.hasNetclass('PORT0') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
+)
+
+#######################################
+
+(rule PORT1_length
+    (condition "A.hasNetclass('PORT1')")
+    (constraint length (min 50mm) (opt 52mm) (max 55mm))
 )
 
 (rule PORT1_clearance
-	(condition "A.hasNetclass('PORT1') && B.hasNetclass('PORT1') && A.NetName != B.NetName")
-	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('PORT1') && B.hasNetclass('PORT1') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
 )
 
+######################################
+
+(rule PMOD_length
+    (condition "A.hasNetclass('PMOD0')")
+    (constraint length (min 50mm) (opt 52mm) (max 54mm))
+)
+
+(rule PMOD_length
+    (condition "A.hasNetclass('PMOD1')")
+    (constraint length (min 50mm) (opt 52mm) (max 54mm))
+)
+
+######################################
+
 (rule VGA_clearance
-	(condition "A.hasNetclass('VGA') && B.hasNetclass('VGA') && A.NetName != B.NetName")
-	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('VGA') && B.hasNetclass('VGA') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
 )
 
 (rule YUV_clearance
-	(condition "A.hasNetclass('YUV') && B.hasNetclass('YUV') && A.NetName != B.NetName")
-	(constraint clearance (min 0.25mm))
+	(condition "A.hasNetclass('YUV') && B.hasNetclass('YUV') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
 )
