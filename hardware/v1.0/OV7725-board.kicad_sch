@@ -9436,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mylib:TFOM24M4RHKCNT2T"
 			(at 142.24 60.96 0)
 			(effects
 				(font

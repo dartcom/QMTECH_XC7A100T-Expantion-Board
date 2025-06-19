@@ -14,7 +14,7 @@
 
 (rule PORT1_length
     (condition "A.hasNetclass('PORT1')")
-    (constraint length (min 50mm) (opt 52mm) (max 55mm))
+    (constraint length (min 50mm) (opt 52mm) (max 56mm))
 )
 
 (rule PORT1_clearance
@@ -32,6 +32,18 @@
 (rule PMOD_length
     (condition "A.hasNetclass('PMOD1')")
     (constraint length (min 50mm) (opt 52mm) (max 54mm))
+)
+
+######################################
+
+(rule SD_length
+    (condition "A.hasNetclass('SD')")
+    (constraint length (min 28mm) (opt 30mm) (max 35mm))
+)
+
+(rule SD_clearance
+	(condition "A.hasNetclass('SD') && B.hasNetclass('SD') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
 )
 
 ######################################

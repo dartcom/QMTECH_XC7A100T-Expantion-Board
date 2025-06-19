@@ -194,6 +194,17 @@
 		(layer "Cmts.User")
 		(uuid "74a20fbc-6f81-49dc-9fa5-a0955908ec91")
 	)
+	(fp_rect
+		(start -8.5 -6.5)
+		(end 8.5 10)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c385a947-9d76-4041-bec3-de296087abb4")
+	)
 	(fp_circle
 		(center 8.07 -5.51)
 		(end 8.1 -5.51)
@@ -218,15 +229,15 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -4.95 5.7)
-		(size 1.2 1.2)
-		(drill 1.2)
+		(size 0.8 0.8)
+		(drill 0.8)
 		(layers "*.Mask")
 		(uuid "98619d73-219e-4f85-aa5b-edf000b368ff")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.05 5.7)
-		(size 1.2 1.2)
-		(drill 1.2)
+		(size 0.8 0.8)
+		(drill 0.8)
 		(layers "*.Mask")
 		(uuid "1aa2c509-ed54-4f72-a6d7-bc0c61844d2f")
 	)
@@ -311,7 +322,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/C393941/C393941.3dshapes/TF-SMD_TF-PUSH.step"
 		(offset
-			(xyz 0 -2.59 0.1)
+			(xyz 0 -2.4 0.1)
 		)
 		(scale
 			(xyz 1 1 1)
