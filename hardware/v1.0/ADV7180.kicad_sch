@@ -5,673 +5,6 @@
 	(uuid "0b50abb5-0be8-4d89-87ad-8c8c9dca8a89")
 	(paper "A4")
 	(lib_symbols
-		(symbol "C459884:ADV7180BCP32Z-RL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -29.21 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ADV7180BCP32Z-RL"
-				(at -20.32 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "C459884:LFCSP-32_L5.0-W5.0-P0.50-BL-EP3.6"
-				(at 7.62 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Video-Audio-Interface-ICs_Analog-Devices-ADI-LINEAR-ADV7180BCP32Z-RL_C459884.html"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C459884"
-				(at 5.08 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADV7180BCP32Z-RL_0_1"
-				(rectangle
-					(start -19.05 22.86)
-					(end 17.78 -20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 8.89 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 6.35 0)
-					(length 2.54)
-					(name "SDATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 3.81 0)
-					(length 2.54)
-					(name "ALSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 1.27 0)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 -3.81 0)
-					(length 2.54)
-					(name "VREFN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 -7.62 0)
-					(length 2.54)
-					(name "VREFP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 -13.97 0)
-					(length 2.54)
-					(name "XTAL1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 -17.78 0)
-					(length 2.54)
-					(name "XTAL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 25.4 270)
-					(length 2.54)
-					(name "DVDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 25.4 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -22.86 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 25.4 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -22.86 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -22.86 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 25.4 270)
-					(length 2.54)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 25.4 270)
-					(length 2.54)
-					(name "PVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 20.32 180)
-					(length 2.54)
-					(name "LLC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 16.51 180)
-					(length 2.54)
-					(name "P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 13.97 180)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 11.43 180)
-					(length 2.54)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 8.89 180)
-					(length 2.54)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 6.35 180)
-					(length 2.54)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 3.81 180)
-					(length 2.54)
-					(name "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 1.27 180)
-					(length 2.54)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -1.27 180)
-					(length 2.54)
-					(name "P7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "HS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "VS/FIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -10.16 180)
-					(length 2.54)
-					(name "SFL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -12.7 180)
-					(length 2.54)
-					(name "~{INTRQ}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 -17.78 180)
-					(length 2.54)
-					(name "ELPF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADV7180BCP32Z-RL_1_1"
-				(pin unspecified line
-					(at -21.59 20.32 0)
-					(length 2.54)
-					(name "AIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 17.78 0)
-					(length 2.54)
-					(name "AIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -21.59 15.24 0)
-					(length 2.54)
-					(name "AIN3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint_Flag"
 			(pin_numbers
 				(hide yes)
@@ -4809,6 +4142,673 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "adv7180:ADV7180BCP32Z-RL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -29.21 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADV7180BCP32Z-RL"
+				(at -20.32 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C459884:LFCSP-32_L5.0-W5.0-P0.50-BL-EP3.6"
+				(at 7.62 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Video-Audio-Interface-ICs_Analog-Devices-ADI-LINEAR-ADV7180BCP32Z-RL_C459884.html"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C459884"
+				(at 5.08 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADV7180BCP32Z-RL_0_1"
+				(rectangle
+					(start -19.05 22.86)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 8.89 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 6.35 0)
+					(length 2.54)
+					(name "SDATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 3.81 0)
+					(length 2.54)
+					(name "ALSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 1.27 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 -3.81 0)
+					(length 2.54)
+					(name "VREFN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "VREFP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 -13.97 0)
+					(length 2.54)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 -17.78 0)
+					(length 2.54)
+					(name "XTAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 25.4 270)
+					(length 2.54)
+					(name "DVDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 25.4 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -22.86 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -22.86 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 25.4 270)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 25.4 270)
+					(length 2.54)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 20.32 180)
+					(length 2.54)
+					(name "LLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 16.51 180)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 13.97 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 8.89 180)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 6.35 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 1.27 180)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -1.27 180)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "HS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "VS/FIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "SFL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "~{INTRQ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "ELPF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADV7180BCP32Z-RL_1_1"
+				(pin unspecified line
+					(at -21.59 20.32 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 17.78 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -21.59 15.24 0)
+					(length 2.54)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -5566,6 +5566,12 @@
 		(uuid "14d50150-355e-4f4d-8a2f-03234a62fa76")
 	)
 	(junction
+		(at 76.2 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155a6158-fc2b-4c3b-a847-abc0374ef30c")
+	)
+	(junction
 		(at 38.735 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5606,6 +5612,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f5fff8-8c89-4ced-afb9-92e303762543")
+	)
+	(junction
+		(at 96.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a151add-adec-494b-843f-72b675f77046")
 	)
 	(junction
 		(at 77.47 162.56)
@@ -5656,12 +5668,6 @@
 		(uuid "887612a6-212c-48e3-a6bd-736be1ec1b3d")
 	)
 	(junction
-		(at 96.52 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94422ad1-5d89-4970-94f6-a863135247d5")
-	)
-	(junction
 		(at 77.47 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5672,12 +5678,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b042da1-be2f-4f0f-a245-196929bb0df4")
-	)
-	(junction
-		(at 76.2 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b902b52-e22b-4160-8f15-32fd0b7d90fb")
 	)
 	(junction
 		(at 68.58 167.64)
@@ -5698,22 +5698,10 @@
 		(uuid "a83d973e-332d-4d99-bc44-9a797b1df20e")
 	)
 	(junction
-		(at 76.2 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95ca173-0e8e-418a-911d-461136d3e97f")
-	)
-	(junction
 		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb0872c5-5637-4de9-bca1-fa9ec164d916")
-	)
-	(junction
-		(at 73.66 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20d1406-fefa-40b4-b720-70203121de06")
 	)
 	(junction
 		(at 139.7 67.31)
@@ -5728,10 +5716,10 @@
 		(uuid "c54af953-79a4-4a29-a7c3-0550efe0f81f")
 	)
 	(junction
-		(at 85.09 30.48)
+		(at 76.2 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5cd3ad3-8d96-47e1-af64-c3a82c81a69e")
+		(uuid "ca9947e4-cb8b-4eb5-978d-c3a5b8cb30d0")
 	)
 	(junction
 		(at 86.36 167.64)
@@ -5752,6 +5740,12 @@
 		(uuid "d9b5f929-cdff-41ab-a80b-3203c437a4e3")
 	)
 	(junction
+		(at 73.66 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e56832d6-e8b5-47ab-8b1d-7018216cef0c")
+	)
+	(junction
 		(at 36.83 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5768,6 +5762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5bd2b99-3639-4f70-8334-8b1284ec1f98")
+	)
+	(junction
+		(at 85.09 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff163571-66ff-4bf1-9460-da5fe9781936")
 	)
 	(no_connect
 		(at 143.51 50.8)
@@ -5838,10 +5838,6 @@
 		(uuid "afc58a7f-4aa3-48f6-991a-45cbb961fa3f")
 	)
 	(no_connect
-		(at 54.61 40.64)
-		(uuid "b46ca4e6-7b7d-4f75-95e4-95e7330beba4")
-	)
-	(no_connect
 		(at 156.21 71.12)
 		(uuid "d2e1ef80-49e7-43c5-8505-b7bb151f923b")
 	)
@@ -5852,6 +5848,10 @@
 	(no_connect
 		(at 156.21 76.2)
 		(uuid "dfcc9519-fde8-4eff-86a2-baa582ab2763")
+	)
+	(no_connect
+		(at 54.61 40.64)
+		(uuid "e977d936-0bc6-4e32-9716-ce4499d1b881")
 	)
 	(no_connect
 		(at 156.21 73.66)
@@ -6357,7 +6357,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 76.2 78.74)
+			(xy 73.66 78.74) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6807,16 +6807,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 78.74) (xy 73.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72af0d50-1ce6-4f15-a9e9-21be3dddb35b")
-	)
-	(wire
-		(pts
 			(xy 44.45 74.93) (xy 44.45 76.2)
 		)
 		(stroke
@@ -7054,6 +7044,16 @@
 			(type default)
 		)
 		(uuid "94cb0f74-570a-487e-ba96-0b70f0b4f6d8")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967b5974-41ce-4c8e-807c-f1629dca0157")
 	)
 	(bus
 		(pts
@@ -11191,175 +11191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C459884:ADV7180BCP32Z-RL")
-		(at 76.2 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76edcf15-7d4e-4d98-8392-02937be5722f")
-		(property "Reference" "U4"
-			(at 76.2 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADV7180BCP32Z-RL"
-			(at 75.565 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm"
-			(at 76.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Video-Audio-Interface-ICs_Analog-Devices-ADI-LINEAR-ADV7180BCP32Z-RL_C459884.html"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C459884"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1386eb-6f8d-4689-bff5-bde49e196d53")
-		)
-		(pin "10"
-			(uuid "b6f9eae1-68a7-4f7f-a695-5143132c2c99")
-		)
-		(pin "11"
-			(uuid "05328218-e54f-496b-ba09-35cc0450b43e")
-		)
-		(pin "12"
-			(uuid "f5fe1da6-969f-468a-9e70-26d40d51b2e5")
-		)
-		(pin "13"
-			(uuid "027c31b5-a717-4ed3-bb42-ce87fc7a303c")
-		)
-		(pin "14"
-			(uuid "33a3cf91-79e5-4bcd-a4c3-31ee787766a7")
-		)
-		(pin "15"
-			(uuid "67134c49-ce8a-44f1-8fde-62daab4da0d9")
-		)
-		(pin "16"
-			(uuid "0539ed68-7978-438a-a674-83355eeeb2ab")
-		)
-		(pin "17"
-			(uuid "762be94a-b77c-4361-9434-a5fbdc5640e3")
-		)
-		(pin "18"
-			(uuid "8749289f-ebdd-460d-ba74-d53c455d5fca")
-		)
-		(pin "2"
-			(uuid "22d1ea2c-1d6f-4ca9-8120-6e5744a0c6e8")
-		)
-		(pin "20"
-			(uuid "ffdbb1f5-1694-42bd-ae78-ee4949d6e3b9")
-		)
-		(pin "21"
-			(uuid "34f96cfc-2bf5-4601-97b1-bf8283dbbc9d")
-		)
-		(pin "22"
-			(uuid "59db5122-a368-4844-90fe-679c0e694bfe")
-		)
-		(pin "25"
-			(uuid "288b0b9b-9a53-4838-8144-b2d8566f57e1")
-		)
-		(pin "26"
-			(uuid "1c802d2e-335b-4ae6-99b4-350ee00055d1")
-		)
-		(pin "27"
-			(uuid "a7321215-cb0e-4df5-b944-3aece688a2ce")
-		)
-		(pin "28"
-			(uuid "e2ae7eb6-2d2f-4fe4-bbb3-f2e764b68b78")
-		)
-		(pin "29"
-			(uuid "a376dcbf-9e0a-4602-876a-37e9d8b2f9cc")
-		)
-		(pin "3"
-			(uuid "d7c0faa1-deb1-4a32-b141-e4a7a29a7b40")
-		)
-		(pin "30"
-			(uuid "fa4144e2-6282-4c22-a3a1-6a16fb5ca864")
-		)
-		(pin "31"
-			(uuid "7c2e92af-f9b5-4451-810b-a5c80c33aa8d")
-		)
-		(pin "32"
-			(uuid "410739ab-322a-4f36-bc40-e8716e7d3d63")
-		)
-		(pin "33"
-			(uuid "584eb219-ef6b-4692-8e6c-e9a6534c0173")
-		)
-		(pin "4"
-			(uuid "20ad4810-f0fd-4485-97cb-3f5e998f51d7")
-		)
-		(pin "5"
-			(uuid "86ca22c6-1f89-4321-8f05-795515b88f63")
-		)
-		(pin "6"
-			(uuid "0b3231e1-544f-4e91-a027-3ef66a9b2c85")
-		)
-		(pin "7"
-			(uuid "c51b34fc-cccf-4812-831d-6fd2cbe3c4f0")
-		)
-		(pin "8"
-			(uuid "ad150e6b-df44-4402-842c-7ceb2f28023d")
-		)
-		(pin "9"
-			(uuid "121970d7-114a-4f58-9fa9-2dd20299da5c")
-		)
-		(pin "23"
-			(uuid "282e3e1d-c7f0-4111-aa9f-48ff96b6bde8")
-		)
-		(pin "19"
-			(uuid "475743c0-d103-4fd3-91ae-7c4511b91683")
-		)
-		(pin "30"
-			(uuid "5ebab0f3-e6eb-42b5-ac2f-e7927a6b1ba6")
-		)
-		(instances
-			(project "QMTECH_XC7A100T-Expantion-Board"
-				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 177.8 27.94 0)
 		(unit 1)
@@ -13073,6 +12904,178 @@
 			(project "QMTECH_XC7A100T-Expantion-Board"
 				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
 					(reference "#PWR37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "adv7180:ADV7180BCP32Z-RL")
+		(at 76.2 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a7ac60-c611-4fbc-8463-9995428624dc")
+		(property "Reference" "U4"
+			(at 80.8833 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADV7180BCP32Z-RL"
+			(at 80.8833 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C459884:LFCSP-32_L5.0-W5.0-P0.50-BL-EP3.6"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Video-Audio-Interface-ICs_Analog-Devices-ADI-LINEAR-ADV7180BCP32Z-RL_C459884.html"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C459884"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "6ac93a53-93b6-4219-9b55-2e842a01b0ed")
+		)
+		(pin "14"
+			(uuid "fbe57651-d4c6-46b1-9a28-46bee10c5b44")
+		)
+		(pin "11"
+			(uuid "d5095636-2b20-4cff-9f28-5214187c9234")
+		)
+		(pin "19"
+			(uuid "b0ff3836-76bd-4d7e-aab3-9ae0bd78f2f7")
+		)
+		(pin "5"
+			(uuid "29e950b5-b71b-4329-855b-2c06c5b4580d")
+		)
+		(pin "2"
+			(uuid "3364ef62-dbfe-42e3-8507-9336af4d9633")
+		)
+		(pin "26"
+			(uuid "82e86856-d1f0-4454-9900-ff037df4b176")
+		)
+		(pin "20"
+			(uuid "f2ab3b8d-e1c2-4c3f-8bbd-4bbce32ccd4f")
+		)
+		(pin "4"
+			(uuid "e0aea277-17f9-40d7-9dda-f81e0b1d73b5")
+		)
+		(pin "27"
+			(uuid "f6ccb2b7-f8e4-4650-9393-a95b0121799b")
+		)
+		(pin "31"
+			(uuid "c8aa7fc7-2605-4fd8-b38e-605e67d7c1e1")
+		)
+		(pin "16"
+			(uuid "e3612e34-417f-4c2e-a419-dec9a953a586")
+		)
+		(pin "21"
+			(uuid "c771a4ea-13af-4c85-83d7-f281c3367b71")
+		)
+		(pin "22"
+			(uuid "64214f54-d42c-43a7-87f9-7ffa975904fe")
+		)
+		(pin "18"
+			(uuid "424c74f0-19f2-467d-bfd6-054e5206dfd6")
+		)
+		(pin "23"
+			(uuid "f23ae129-dd6a-4718-9277-96690227c793")
+		)
+		(pin "3"
+			(uuid "cf5c4ce7-0cf6-4d7a-9526-89150e14d791")
+		)
+		(pin "1"
+			(uuid "750f0837-3347-48e5-a203-5e3ed7b70c91")
+		)
+		(pin "17"
+			(uuid "f5c5bcba-aea1-4585-9fb0-ccff6646db93")
+		)
+		(pin "8"
+			(uuid "0c18c70b-b580-4af3-9ee7-32e5cc79480c")
+		)
+		(pin "25"
+			(uuid "418eaaea-9cb3-442a-9940-2afc9714762e")
+		)
+		(pin "13"
+			(uuid "b114867a-c587-4d7f-bd96-a5c5bdbcfb2e")
+		)
+		(pin "12"
+			(uuid "65445ee6-0fff-492b-865a-5ac1f395741c")
+		)
+		(pin "10"
+			(uuid "1eab3d4f-8ee0-4c42-a89b-9266e6940330")
+		)
+		(pin "9"
+			(uuid "e135273f-daec-4689-a202-2ee442475b9c")
+		)
+		(pin "29"
+			(uuid "664a3dbc-a7df-4218-bf82-a18a88a80139")
+		)
+		(pin "7"
+			(uuid "9d52c432-f394-4c07-b623-c1e9c89e5663")
+		)
+		(pin "32"
+			(uuid "4e4c34dd-cbde-47c8-a44b-09f40dd36808")
+		)
+		(pin "30"
+			(uuid "80de98fe-ec1b-41e1-882d-049f1746be8f")
+		)
+		(pin "24"
+			(uuid "6bfe4cec-1d36-43f6-8502-ceb537d969dd")
+		)
+		(pin "15"
+			(uuid "c48ff395-b792-40aa-8510-60755d3d7584")
+		)
+		(pin "28"
+			(uuid "89f30489-2af7-4ce5-95bd-6c5aada1af4d")
+		)
+		(pin "6"
+			(uuid "75181bf2-d35d-4891-b235-32e1d2bc4480")
+		)
+		(instances
+			(project ""
+				(path "/1a66a179-6cc4-4048-836e-3eb434e9da88/856c4711-f246-4385-ad64-862f60e59bf4"
+					(reference "U4")
 					(unit 1)
 				)
 			)

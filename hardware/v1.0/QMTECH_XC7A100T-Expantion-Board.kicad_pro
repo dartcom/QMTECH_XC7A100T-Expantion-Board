@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -531,7 +531,7 @@
         "diff_pair_width": 0.124,
         "name": "100Ω_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.124
       },
@@ -539,7 +539,7 @@
         "clearance": 0.1,
         "name": "50Ω_single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.45,
@@ -550,32 +550,32 @@
         "diff_pair_width": 0.1582,
         "name": "90Ω_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1582
       },
       {
         "name": "PMOD0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PMOD1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PORT0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PORT1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -595,6 +595,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.11,
+        "name": "pwr_small",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3
       }
     ],
     "meta": {
@@ -650,6 +658,14 @@
       {
         "netclass": "PMOD0",
         "pattern": "/PMOD0*"
+      },
+      {
+        "netclass": "pwr_small",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "pwr_small",
+        "pattern": "GND"
       }
     ]
   },
