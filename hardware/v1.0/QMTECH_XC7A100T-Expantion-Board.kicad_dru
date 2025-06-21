@@ -53,7 +53,26 @@
 	(constraint clearance (min 0.27mm))
 )
 
+######################################
+
 (rule YUV_clearance
 	(condition "A.hasNetclass('YUV') && B.hasNetclass('YUV') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
 	(constraint clearance (min 0.27mm))
+)
+
+(rule YUV_length
+    (condition "A.hasNetclass('YUV')")
+    (constraint length (min 30mm) (opt 32mm) (max 34mm))
+)
+
+######################################
+
+(rule OV7725_clearance
+	(condition "A.hasNetclass('YUV') && B.hasNetclass('OV7725') && A.NetName != B.NetName && !(A.intersectsCourtyard('J*') || A.intersectsCourtyard('U*'))")
+	(constraint clearance (min 0.27mm))
+)
+
+(rule OV7725_length
+    (condition "A.hasNetclass('OV7725')")
+    (constraint length (min 18mm) (opt 20mm) (max 22mm))
 )

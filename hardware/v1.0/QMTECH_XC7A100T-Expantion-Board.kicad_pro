@@ -555,27 +555,33 @@
         "track_width": 0.1582
       },
       {
-        "name": "PMOD0",
+        "name": "OV7725",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "PMOD1",
+        "name": "PMOD0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "name": "PMOD1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "PORT0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PORT1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -587,7 +593,7 @@
       {
         "name": "VGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -666,6 +672,10 @@
       {
         "netclass": "pwr_small",
         "pattern": "GND"
+      },
+      {
+        "netclass": "OV7725",
+        "pattern": "/OV7725-board/OV7725*"
       }
     ]
   },
