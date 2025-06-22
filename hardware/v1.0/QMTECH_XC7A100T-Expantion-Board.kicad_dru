@@ -74,5 +74,5 @@
 
 (rule OV7725_length
     (condition "A.hasNetclass('OV7725')")
-    (constraint length (min 18mm) (opt 20mm) (max 22mm))
+    (constraint length (min 18mm) (opt 20mm) (max 25mm))
 )

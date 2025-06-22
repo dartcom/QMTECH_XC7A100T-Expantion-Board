@@ -9164,7 +9164,7 @@
 		(uuid "824ee544-78ca-47df-b5aa-353802f56c19")
 	)
 	(no_connect
-		(at 146.05 146.05)
+		(at 144.78 146.05)
 		(uuid "85f995d8-de22-4731-be53-c53ad6e7341b")
 	)
 	(no_connect
@@ -13807,6 +13807,16 @@
 			(type default)
 		)
 		(uuid "9e289f66-fdc3-49a9-8700-4a3d8fd2bf0f")
+	)
+	(wire
+		(pts
+			(xy 144.78 146.05) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3a9b14-16a3-49aa-a990-f11142132193")
 	)
 	(bus
 		(pts
@@ -20679,7 +20689,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 196.85 27.94 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -20722,15 +20732,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, large"
-			(at 196.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 196.85 27.94 0)
 			(effects
 				(font
