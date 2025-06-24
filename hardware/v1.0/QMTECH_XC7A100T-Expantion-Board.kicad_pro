@@ -511,17 +511,17 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.2,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1565,
+        "track_width": 0.2,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -530,7 +530,7 @@
         "diff_pair_gap": 0.203,
         "diff_pair_width": 0.124,
         "name": "100Ω_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 53, 181)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.124
@@ -539,7 +539,7 @@
         "clearance": 0.1,
         "name": "50Ω_single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.45,
@@ -549,7 +549,7 @@
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1582,
         "name": "90Ω_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 9, 0)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1582
@@ -557,58 +557,60 @@
       {
         "name": "OV7725",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PMOD0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PMOD1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PORT0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PORT1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "VGA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "YUV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "bus_width": 12,
         "clearance": 0.11,
         "name": "pwr_small",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3
+        "track_width": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -621,10 +623,6 @@
     },
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "50Ω_single",
-        "pattern": "*"
-      },
       {
         "netclass": "PORT0",
         "pattern": "/PORT0*"
@@ -666,16 +664,28 @@
         "pattern": "/PMOD0*"
       },
       {
+        "netclass": "OV7725",
+        "pattern": "/OV7725-board/OV7725*"
+      },
+      {
+        "netclass": "50Ω_single",
+        "pattern": "*"
+      },
+      {
         "netclass": "pwr_small",
-        "pattern": "+*"
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "pwr_small",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "pwr_small",
+        "pattern": "+5V"
       },
       {
         "netclass": "pwr_small",
         "pattern": "GND"
-      },
-      {
-        "netclass": "OV7725",
-        "pattern": "/OV7725-board/OV7725*"
       }
     ]
   },
