@@ -673,10 +673,6 @@
       },
       {
         "netclass": "50_single",
-        "pattern": "u*"
-      },
-      {
-        "netclass": "50_single",
         "pattern": "N*"
       }
     ]
