@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -496,7 +496,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,
-        "name": "100_diff",
+        "name": "100diff",
         "pcb_color": "rgb(255, 53, 181)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -513,7 +513,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,
-        "name": "50_single",
+        "name": "50single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -530,7 +530,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,
-        "name": "90_diff",
+        "name": "90diff",
         "pcb_color": "rgb(255, 9, 0)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -595,7 +595,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.2,
-        "name": "pwr_small",
+        "name": "pwrsmall",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -636,15 +636,15 @@
         "pattern": "/vga-board/VGA*"
       },
       {
-        "netclass": "90_diff",
+        "netclass": "90diff",
         "pattern": "/UART_D*"
       },
       {
-        "netclass": "90_diff",
+        "netclass": "90diff",
         "pattern": "/PD*"
       },
       {
-        "netclass": "100_diff",
+        "netclass": "100diff",
         "pattern": "/PMOD*"
       },
       {
@@ -660,19 +660,19 @@
         "pattern": "/OV7725-board/OV7725*"
       },
       {
-        "netclass": "pwr_small",
+        "netclass": "pwrsmall",
         "pattern": "+*"
       },
       {
-        "netclass": "pwr_small",
+        "netclass": "pwrsmall",
         "pattern": "GND"
       },
       {
-        "netclass": "50_single",
+        "netclass": "50single",
         "pattern": "/*"
       },
       {
-        "netclass": "50_single",
+        "netclass": "50single",
         "pattern": "N*"
       }
     ]
