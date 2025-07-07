@@ -8872,7 +8872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -9226,7 +9226,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 157.48 27.94 0)
 			(effects
 				(font

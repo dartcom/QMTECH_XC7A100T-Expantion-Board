@@ -3354,7 +3354,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 27.94 75.565 0)
 			(effects
 				(font

@@ -6584,7 +6584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 131.445 47.625 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 228.6 26.67 0)
 			(effects
 				(font

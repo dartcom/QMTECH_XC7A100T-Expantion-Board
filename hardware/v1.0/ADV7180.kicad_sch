@@ -9596,7 +9596,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 46.355 140.335 90)
 			(effects
 				(font
@@ -9797,7 +9797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 46.355 121.285 90)
 			(effects
 				(font
@@ -10007,7 +10007,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 66.675 164.465 0)
 			(effects
 				(font
@@ -11208,7 +11208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 175.26 29.21 0)
 			(effects
 				(font
@@ -12376,7 +12376,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 84.455 164.465 0)
 			(effects
 				(font
@@ -13428,7 +13428,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 66.675 151.765 0)
 			(effects
 				(font
@@ -14191,7 +14191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -14317,7 +14317,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 46.99 62.23 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-07-05 18:06:08 board2pdf 31:File: /home/dartcom/.local/share/kicad/9.0/3rdparty/plugins/com_gitlab_dennevi_Board2Pdf/board2pdf_action.py	Version: 1.9.2
-07-05 18:06:08 com_github_Steffen-W_KiCad-Parasitics.ngspyce.ngspyce 80:Command set nomoremode returned []
-07-05 18:06:08 STDOUT 53:Starting plugin CircularZone
-07-05 18:06:08 STDOUT 53:Starting plugin ViaStitching
+07-07 23:00:56 board2pdf 31:File: /home/dartcom/.local/share/kicad/9.0/3rdparty/plugins/com_gitlab_dennevi_Board2Pdf/board2pdf_action.py	Version: 1.9.2
+07-07 23:00:56 com_github_Steffen-W_KiCad-Parasitics.ngspyce.ngspyce 80:Command set nomoremode returned []
+07-07 23:00:56 STDOUT 53:Starting plugin CircularZone
+07-07 23:00:56 STDOUT 53:Starting plugin ViaStitching
