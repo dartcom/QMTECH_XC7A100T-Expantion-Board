@@ -14931,16 +14931,6 @@
 		)
 		(uuid "ebe9f19c-50eb-43ba-9cc9-f06d53769533")
 	)
-	(wire
-		(pts
-			(xy 231.14 158.75) (xy 232.41 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd2c707-a8b8-498a-bc3d-b0042a0cf509")
-	)
 	(bus
 		(pts
 			(xy 88.9 50.8) (xy 88.9 53.34)
@@ -23480,7 +23470,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 158.75 0)
+		(at 231.14 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23488,7 +23478,7 @@
 		(dnp no)
 		(uuid "cb8e10b9-7e3d-4410-b8f3-1472e929b97c")
 		(property "Reference" "#PWR0103"
-			(at 232.41 165.1 0)
+			(at 231.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23497,7 +23487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 160.528 0)
+			(at 227.33 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23505,7 +23495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23514,7 +23504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23523,7 +23513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
